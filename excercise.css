@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Georgia", serif;
+  color: #ffffff;
+}
+
+p, span, a, label, li {
+  font-family: "Roboto", "Verdana", sans-serif;
+  color: #ffffff;
+  text-align: justify;
+  padding: 15px;
+}
+
+li {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #212121;
+}
+
+header {
+  background-color: #333333;
+  text-align: center;
+  padding: 50px;
+}
+
+main {
+  margin: 0 auto;
+  width: 60%;
+}
+
+canvas {
+  background-color: #ffffff;
+  margin: auto;
+  display: block;
+}
+
+svg {
+  background-color: #ffffff;
+  margin: auto;
+  display: block;
+}
+
+form {
+  margin: auto;
+  width: 180px;
+  padding: 20px;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+button {
+  margin: 0 auto;
+  display: block;
+}
+
+.exc {
+  margin: 25px auto;
+  width: 600px;
+  background-color: #303030;
+  text-align: center;
+  border-radius: 2px;
+  overflow: auto;
+}
+
+.exc h4 {
+  padding-top: 15px;
+}
+
+.res {
+  margin: 25px auto;
+  padding: 20px;
+  width: 100%;
+  background-color: #303030;
+}
+
+.btn {
+  margin: 20px auto;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #555555;
+  text-align: center;
+  display: block;
+  box-sizing: content-box;
+}
+
+.btn:hover {
+  background-color: #767676;
+}
+
+.cords {
+  text-align: center;
+}

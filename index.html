@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="wolfthewizard">
+    <link rel="stylesheet" href="excercise.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>WireBoids</title>
+  </head>
+  <body>
+      <main>
+        <div class="res">
+          <canvas id="canvas" width="960" height="540"></canvas>
+          <script src="model.js" type="text/javascript"></script>
+          <script src="3dContext.js" type="text/javascript"></script>
+          <script src="gameEngine.js" type="text/javascript"></script>
+          <script>
+            const gameEngine = new GameEngine(
+              new Renderer(new CanvasOperator(), new Context3D())
+            );
+          </script>
+        </div>
+      </main>
+  </body>
+</html>
